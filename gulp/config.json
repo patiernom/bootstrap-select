@@ -1,0 +1,38 @@
+{
+  "js": {
+    "bootstrapSelect": {
+      "libname": "bootstrap.select",
+      "dest": "dist/js",
+      "jshintrc": "src/js/.jshintrc",
+      "jscsrc": ".jscsrc",
+      "maps":  "/maps",
+      "srcfiles": [
+        { "root": "src/js/", "directory": "", "filename": "bootstrap-select.js", "external": false }
+      ]
+    }
+  },
+  "css": {
+    "appStyle": {
+      "libname": "bootstrap.select",
+      "dest": "dist/css",
+      "csslintrc": "src/less/csslintrc.json",
+      "maps":  "/maps",
+      "srcfiles": [
+        {
+          "root": "src/css/", "directory": "", "filename": "bootstrap.select.css"
+        }
+      ]
+    }
+  },
+  "less": {
+    "bootstrapSelect": {
+      "libname": "bootstrap.select",
+      "source": "src/less",
+      "dest": "src/css",
+      "maps": "/maps",
+      "srcfiles": [
+        "src/less/bootstrap-select.less"
+      ]
+    }
+  }
+}
