@@ -31,7 +31,7 @@
       "dest": "src/css",
       "maps": "/maps",
       "srcfiles": [
-        "src/less/bootstrap-select.less"
+        "src/less/bootstrap-dropdowns.less"
       ]
     }
   }
